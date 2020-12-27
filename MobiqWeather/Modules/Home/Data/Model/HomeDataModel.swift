@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+struct AnnotationModel {
+    var city: String
+    var longitude: String
+    var latitude: String
+}

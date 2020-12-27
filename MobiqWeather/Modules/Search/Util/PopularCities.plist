@@ -1,14 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<!--
-   PopularCities.plist
-   MobiqWeather
-
-   Created by Nikhil Aggarwal on 25/12/20.
-   Copyright (c) 2020 Demo Project. All rights reserved.
--->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <dict>
-    
-    </dict>
+<array>
+	<dict>
+		<key>city</key>
+		<string>Pune</string>
+		<key>longitude</key>
+		<string>73.8567</string>
+		<key>latitude</key>
+		<string>18.5204</string>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Delhi</string>
+		<key>longitude</key>
+		<string>77.1025</string>
+		<key>latitude</key>
+		<string>28.7041</string>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Mumbai</string>
+		<key>longitude</key>
+		<string>72.8777</string>
+		<key>latitude</key>
+		<string>19.0760</string>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Bengaluru</string>
+		<key>longitude</key>
+		<string>77.5946</string>
+		<key>latitude</key>
+		<string>12.9716</string>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Ahmedabad</string>
+		<key>longitude</key>
+		<string>72.5714</string>
+		<key>latitude</key>
+		<string>23.0225</string>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Nagpur</string>
+		<key>longitude</key>
+		<string>79.0882</string>
+		<key>latitude</key>
+		<string>21.1458</string>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Bhopal</string>
+		<key>longitude</key>
+		<string>77.4126</string>
+		<key>latitude</key>
+		<string>23.2599</string>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Indore</string>
+		<key>longitude</key>
+		<string>75.8577</string>
+		<key>latitude</key>
+		<string>22.7196</string>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Chennai</string>
+		<key>longitude</key>
+		<string>80.2707</string>
+		<key>latitude</key>
+		<string>13.0827</string>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Kolkata</string>
+		<key>longitude</key>
+		<string>88.3639</string>
+		<key>latitude</key>
+		<string>22.5726</string>
+	</dict>
+</array>
 </plist>

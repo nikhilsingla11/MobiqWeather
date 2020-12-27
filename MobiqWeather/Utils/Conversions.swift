@@ -1,9 +1,9 @@
 //
-//  Conversions.swift
-//  WeatherApp
+//  HomeViewController.swift
+//  MobiqWeather
 //
-//  Created by Nikhil Aggarwal on 14/01/20.
-//  Copyright © 2020 Nikhil Aggarwal. All rights reserved.
+//  Created by Nikhil Aggarwal on 25/12/20.
+//  Copyright © 2020 Demo Project. All rights reserved.
 //
 
 import Foundation
@@ -29,3 +29,4 @@ class Conversion: NSObject {
        return dateString
     }
 }
+

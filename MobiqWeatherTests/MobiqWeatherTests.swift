@@ -30,5 +30,17 @@ class MobiqWeatherTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
+    
+    func testWeatherAPI() {
+        NetworkManager().fetchCityData(cityName: "Pune") { (response) in
+                switch response {
+                case .success:
+                    XCTAssert(true)
+                case .failure:
+                    XCTAssert(false)
+                    
+            }
+        }
+    }
 
 }

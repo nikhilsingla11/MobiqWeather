@@ -38,6 +38,7 @@ struct ListDataModel: Decodable {
     var humidity: Int?
     var weather: [WeatherModel]?
     var temp: TemperatureModel?
+    var feels_like: TemperatureModel?
     var speed: Double?
     var deg: Double?
     var clouds: Double?

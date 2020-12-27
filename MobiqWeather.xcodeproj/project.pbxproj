@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B53EB32259875DA00E531E9 /* HomeDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B53EB31259875DA00E531E9 /* HomeDataModel.swift */; };
+		1B53EB342598870100E531E9 /* BookmarkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B53EB332598870100E531E9 /* BookmarkManager.swift */; };
+		1B53EB3625988C9800E531E9 /* HomeRoutables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B53EB3525988C9800E531E9 /* HomeRoutables.swift */; };
+		1B53EB3825988CC300E531E9 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B53EB3725988CC300E531E9 /* HomeRouter.swift */; };
+		1B53EB4725989E3C00E531E9 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B53EB4625989E3C00E531E9 /* Settings.storyboard */; };
+		1B53EB4925989E4E00E531E9 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B53EB4825989E4E00E531E9 /* SettingsViewController.swift */; };
+		1B53EB4B2598A33C00E531E9 /* PermissionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B53EB4A2598A33C00E531E9 /* PermissionManager.swift */; };
 		1BDA6AEA2595F6700007A9BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA6AE92595F6700007A9BA /* AppDelegate.swift */; };
 		1BDA6AEC2595F6700007A9BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA6AEB2595F6700007A9BA /* SceneDelegate.swift */; };
 		1BDA6AEE2595F6700007A9BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA6AED2595F6700007A9BA /* ViewController.swift */; };
@@ -15,6 +22,29 @@
 		1BDA6AF62595F6710007A9BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BDA6AF42595F6710007A9BA /* LaunchScreen.storyboard */; };
 		1BDA6B012595F6710007A9BA /* MobiqWeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA6B002595F6710007A9BA /* MobiqWeatherTests.swift */; };
 		1BDA6B0C2595F6710007A9BA /* MobiqWeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA6B0B2595F6710007A9BA /* MobiqWeatherUITests.swift */; };
+		1BDA6B362595FBEB0007A9BA /* HomeListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA6B342595FBEB0007A9BA /* HomeListTableViewCell.swift */; };
+		1BDA6B372595FBEB0007A9BA /* HomeListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BDA6B352595FBEB0007A9BA /* HomeListTableViewCell.xib */; };
+		1BDA6B39259601C30007A9BA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA6B38259601C30007A9BA /* HomeViewController.swift */; };
+		1BDA6B3B259602110007A9BA /* HomeDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA6B3A259602110007A9BA /* HomeDataSource.swift */; };
+		1BDA6B3F259602FB0007A9BA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA6B3D259602FB0007A9BA /* Constants.swift */; };
+		1BDA6B40259602FB0007A9BA /* Conversions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA6B3E259602FB0007A9BA /* Conversions.swift */; };
+		1BDA6B56259610B50007A9BA /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BDA6B55259610B50007A9BA /* Search.storyboard */; };
+		1BDA6B58259610C20007A9BA /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA6B57259610C20007A9BA /* SearchViewController.swift */; };
+		1BDA6B5A259618210007A9BA /* MobiqButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA6B59259618210007A9BA /* MobiqButton.swift */; };
+		1BDA6B5C25961D830007A9BA /* City.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BDA6B5B25961D830007A9BA /* City.storyboard */; };
+		1BDA6B5E25961D8F0007A9BA /* CityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA6B5D25961D8F0007A9BA /* CityViewController.swift */; };
+		1BDA6B61259621720007A9BA /* DateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA6B5F259621720007A9BA /* DateCollectionViewCell.swift */; };
+		1BDA6B62259621720007A9BA /* DateCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BDA6B60259621720007A9BA /* DateCollectionViewCell.xib */; };
+		1BDA6B64259621CF0007A9BA /* CityDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA6B63259621CF0007A9BA /* CityDataSource.swift */; };
+		1BDA6B6725962B5B0007A9BA /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA6B6625962B5B0007A9BA /* NetworkManager.swift */; };
+		1BDA6B6925962BC10007A9BA /* WeatherCityDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA6B6825962BC10007A9BA /* WeatherCityDataModel.swift */; };
+		1BDA6B6B25962FC10007A9BA /* WeatherCityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA6B6A25962FC10007A9BA /* WeatherCityViewModel.swift */; };
+		1BDA6B6F259643EE0007A9BA /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA6B6E259643EE0007A9BA /* Helper.swift */; };
+		1BDA6B72259651960007A9BA /* SearchCityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA6B70259651960007A9BA /* SearchCityTableViewCell.swift */; };
+		1BDA6B73259651960007A9BA /* SearchCityTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BDA6B71259651960007A9BA /* SearchCityTableViewCell.xib */; };
+		1BDA6B75259656770007A9BA /* SearchDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA6B74259656770007A9BA /* SearchDataSource.swift */; };
+		1BDA6B772596581E0007A9BA /* PopularCities.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1BDA6B762596581E0007A9BA /* PopularCities.plist */; };
+		1BDA6B7B2597283A0007A9BA /* SearchRoutables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA6B7A2597283A0007A9BA /* SearchRoutables.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +65,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B53EB31259875DA00E531E9 /* HomeDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDataModel.swift; sourceTree = "<group>"; };
+		1B53EB332598870100E531E9 /* BookmarkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkManager.swift; sourceTree = "<group>"; };
+		1B53EB3525988C9800E531E9 /* HomeRoutables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRoutables.swift; sourceTree = "<group>"; };
+		1B53EB3725988CC300E531E9 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		1B53EB4625989E3C00E531E9 /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		1B53EB4825989E4E00E531E9 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		1B53EB4A2598A33C00E531E9 /* PermissionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionManager.swift; sourceTree = "<group>"; };
 		1BDA6AE62595F6700007A9BA /* MobiqWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobiqWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BDA6AE92595F6700007A9BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1BDA6AEB2595F6700007A9BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +86,29 @@
 		1BDA6B072595F6710007A9BA /* MobiqWeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobiqWeatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BDA6B0B2595F6710007A9BA /* MobiqWeatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobiqWeatherUITests.swift; sourceTree = "<group>"; };
 		1BDA6B0D2595F6710007A9BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BDA6B342595FBEB0007A9BA /* HomeListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeListTableViewCell.swift; sourceTree = "<group>"; };
+		1BDA6B352595FBEB0007A9BA /* HomeListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeListTableViewCell.xib; sourceTree = "<group>"; };
+		1BDA6B38259601C30007A9BA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1BDA6B3A259602110007A9BA /* HomeDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDataSource.swift; sourceTree = "<group>"; };
+		1BDA6B3D259602FB0007A9BA /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1BDA6B3E259602FB0007A9BA /* Conversions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Conversions.swift; sourceTree = "<group>"; };
+		1BDA6B55259610B50007A9BA /* Search.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
+		1BDA6B57259610C20007A9BA /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		1BDA6B59259618210007A9BA /* MobiqButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobiqButton.swift; sourceTree = "<group>"; };
+		1BDA6B5B25961D830007A9BA /* City.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = City.storyboard; sourceTree = "<group>"; };
+		1BDA6B5D25961D8F0007A9BA /* CityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityViewController.swift; sourceTree = "<group>"; };
+		1BDA6B5F259621720007A9BA /* DateCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCollectionViewCell.swift; sourceTree = "<group>"; };
+		1BDA6B60259621720007A9BA /* DateCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DateCollectionViewCell.xib; sourceTree = "<group>"; };
+		1BDA6B63259621CF0007A9BA /* CityDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityDataSource.swift; sourceTree = "<group>"; };
+		1BDA6B6625962B5B0007A9BA /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		1BDA6B6825962BC10007A9BA /* WeatherCityDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCityDataModel.swift; sourceTree = "<group>"; };
+		1BDA6B6A25962FC10007A9BA /* WeatherCityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCityViewModel.swift; sourceTree = "<group>"; };
+		1BDA6B6E259643EE0007A9BA /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		1BDA6B70259651960007A9BA /* SearchCityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCityTableViewCell.swift; sourceTree = "<group>"; };
+		1BDA6B71259651960007A9BA /* SearchCityTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchCityTableViewCell.xib; sourceTree = "<group>"; };
+		1BDA6B74259656770007A9BA /* SearchDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDataSource.swift; sourceTree = "<group>"; };
+		1BDA6B762596581E0007A9BA /* PopularCities.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PopularCities.plist; sourceTree = "<group>"; };
+		1BDA6B7A2597283A0007A9BA /* SearchRoutables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRoutables.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +136,116 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B53EB3925989CE700E531E9 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1BDA6AE92595F6700007A9BA /* AppDelegate.swift */,
+				1BDA6AEB2595F6700007A9BA /* SceneDelegate.swift */,
+				1BDA6AED2595F6700007A9BA /* ViewController.swift */,
+				1BDA6AF22595F6710007A9BA /* Assets.xcassets */,
+				1BDA6AF42595F6710007A9BA /* LaunchScreen.storyboard */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		1B53EB3A25989E0300E531E9 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				1B53EB4325989E2900E531E9 /* Data */,
+				1B53EB3F25989E2900E531E9 /* Presentation */,
+				1B53EB4225989E2900E531E9 /* Protocols */,
+				1B53EB3E25989E2900E531E9 /* Router */,
+				1B53EB3B25989E2900E531E9 /* TableView Cell and Header */,
+				1B53EB3D25989E2900E531E9 /* TableView DataSource */,
+				1B53EB3C25989E2900E531E9 /* Util */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		1B53EB3B25989E2900E531E9 /* TableView Cell and Header */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "TableView Cell and Header";
+			sourceTree = "<group>";
+		};
+		1B53EB3C25989E2900E531E9 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				1B53EB4A2598A33C00E531E9 /* PermissionManager.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		1B53EB3D25989E2900E531E9 /* TableView DataSource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "TableView DataSource";
+			sourceTree = "<group>";
+		};
+		1B53EB3E25989E2900E531E9 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		1B53EB3F25989E2900E531E9 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				1B53EB4025989E2900E531E9 /* ViewModel */,
+				1B53EB4125989E2900E531E9 /* View */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		1B53EB4025989E2900E531E9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1B53EB4125989E2900E531E9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1B53EB4625989E3C00E531E9 /* Settings.storyboard */,
+				1B53EB4825989E4E00E531E9 /* SettingsViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1B53EB4225989E2900E531E9 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		1B53EB4325989E2900E531E9 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				1B53EB4425989E2900E531E9 /* Model */,
+				1B53EB4525989E2900E531E9 /* Services */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		1B53EB4425989E2900E531E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1B53EB4525989E2900E531E9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		1BDA6ADD2595F6700007A9BA = {
 			isa = PBXGroup;
 			children = (
@@ -99,12 +269,10 @@
 		1BDA6AE82595F6700007A9BA /* MobiqWeather */ = {
 			isa = PBXGroup;
 			children = (
-				1BDA6AE92595F6700007A9BA /* AppDelegate.swift */,
-				1BDA6AEB2595F6700007A9BA /* SceneDelegate.swift */,
-				1BDA6AED2595F6700007A9BA /* ViewController.swift */,
-				1BDA6AEF2595F6700007A9BA /* Main.storyboard */,
-				1BDA6AF22595F6710007A9BA /* Assets.xcassets */,
-				1BDA6AF42595F6710007A9BA /* LaunchScreen.storyboard */,
+				1B53EB3925989CE700E531E9 /* Core */,
+				1BDA6B192595F6910007A9BA /* Modules */,
+				1BDA6B6525962B430007A9BA /* Network */,
+				1BDA6B3C259602FB0007A9BA /* Utils */,
 				1BDA6AF72595F6710007A9BA /* Info.plist */,
 			);
 			path = MobiqWeather;
@@ -126,6 +294,344 @@
 				1BDA6B0D2595F6710007A9BA /* Info.plist */,
 			);
 			path = MobiqWeatherUITests;
+			sourceTree = "<group>";
+		};
+		1BDA6B192595F6910007A9BA /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				1BDA6B1A2595F6910007A9BA /* Home */,
+				1BDA6B262595F6910007A9BA /* City */,
+				1BDA6B49259610630007A9BA /* Search */,
+				1B53EB3A25989E0300E531E9 /* Settings */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		1BDA6B1A2595F6910007A9BA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1BDA6B1E2595F6910007A9BA /* Data */,
+				1BDA6B212595F6910007A9BA /* Presentation */,
+				1BDA6B242595F6910007A9BA /* Protocols */,
+				1BDA6B252595F6910007A9BA /* Router */,
+				1BDA6B1C2595F6910007A9BA /* TableView Cell and Header */,
+				1BDA6B1D2595F6910007A9BA /* TableView DataSource */,
+				1BDA6B1B2595F6910007A9BA /* Util */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1BDA6B1B2595F6910007A9BA /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		1BDA6B1C2595F6910007A9BA /* TableView Cell and Header */ = {
+			isa = PBXGroup;
+			children = (
+				1BDA6B342595FBEB0007A9BA /* HomeListTableViewCell.swift */,
+				1BDA6B352595FBEB0007A9BA /* HomeListTableViewCell.xib */,
+			);
+			path = "TableView Cell and Header";
+			sourceTree = "<group>";
+		};
+		1BDA6B1D2595F6910007A9BA /* TableView DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				1BDA6B3A259602110007A9BA /* HomeDataSource.swift */,
+			);
+			path = "TableView DataSource";
+			sourceTree = "<group>";
+		};
+		1BDA6B1E2595F6910007A9BA /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				1BDA6B1F2595F6910007A9BA /* Model */,
+				1BDA6B202595F6910007A9BA /* Services */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		1BDA6B1F2595F6910007A9BA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1B53EB31259875DA00E531E9 /* HomeDataModel.swift */,
+				1B53EB332598870100E531E9 /* BookmarkManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1BDA6B202595F6910007A9BA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1BDA6B212595F6910007A9BA /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				1BDA6B222595F6910007A9BA /* ViewModel */,
+				1BDA6B232595F6910007A9BA /* View */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		1BDA6B222595F6910007A9BA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1BDA6B232595F6910007A9BA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1BDA6AEF2595F6700007A9BA /* Main.storyboard */,
+				1BDA6B38259601C30007A9BA /* HomeViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1BDA6B242595F6910007A9BA /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				1B53EB3525988C9800E531E9 /* HomeRoutables.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		1BDA6B252595F6910007A9BA /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				1B53EB3725988CC300E531E9 /* HomeRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		1BDA6B262595F6910007A9BA /* City */ = {
+			isa = PBXGroup;
+			children = (
+				1BDA6B2A2595F6910007A9BA /* Data */,
+				1BDA6B2D2595F6910007A9BA /* Presentation */,
+				1BDA6B302595F6910007A9BA /* Protocols */,
+				1BDA6B312595F6910007A9BA /* Router */,
+				1BDA6B282595F6910007A9BA /* TableView Cell and Header */,
+				1BDA6B292595F6910007A9BA /* TableView DataSource */,
+				1BDA6B272595F6910007A9BA /* Util */,
+			);
+			path = City;
+			sourceTree = "<group>";
+		};
+		1BDA6B272595F6910007A9BA /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		1BDA6B282595F6910007A9BA /* TableView Cell and Header */ = {
+			isa = PBXGroup;
+			children = (
+				1BDA6B5F259621720007A9BA /* DateCollectionViewCell.swift */,
+				1BDA6B60259621720007A9BA /* DateCollectionViewCell.xib */,
+			);
+			path = "TableView Cell and Header";
+			sourceTree = "<group>";
+		};
+		1BDA6B292595F6910007A9BA /* TableView DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				1BDA6B63259621CF0007A9BA /* CityDataSource.swift */,
+			);
+			path = "TableView DataSource";
+			sourceTree = "<group>";
+		};
+		1BDA6B2A2595F6910007A9BA /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				1BDA6B2B2595F6910007A9BA /* Model */,
+				1BDA6B2C2595F6910007A9BA /* Services */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		1BDA6B2B2595F6910007A9BA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1BDA6B6825962BC10007A9BA /* WeatherCityDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1BDA6B2C2595F6910007A9BA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1BDA6B2D2595F6910007A9BA /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				1BDA6B2E2595F6910007A9BA /* ViewModel */,
+				1BDA6B2F2595F6910007A9BA /* View */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		1BDA6B2E2595F6910007A9BA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1BDA6B6A25962FC10007A9BA /* WeatherCityViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1BDA6B2F2595F6910007A9BA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1BDA6B5B25961D830007A9BA /* City.storyboard */,
+				1BDA6B5D25961D8F0007A9BA /* CityViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1BDA6B302595F6910007A9BA /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		1BDA6B312595F6910007A9BA /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		1BDA6B3C259602FB0007A9BA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1BDA6B59259618210007A9BA /* MobiqButton.swift */,
+				1BDA6B3D259602FB0007A9BA /* Constants.swift */,
+				1BDA6B3E259602FB0007A9BA /* Conversions.swift */,
+				1BDA6B6E259643EE0007A9BA /* Helper.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		1BDA6B49259610630007A9BA /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				1BDA6B4E2596108F0007A9BA /* Data */,
+				1BDA6B522596108F0007A9BA /* Presentation */,
+				1BDA6B4D2596108F0007A9BA /* Protocols */,
+				1BDA6B4A2596108F0007A9BA /* Router */,
+				1BDA6B4B2596108F0007A9BA /* TableView Cell and Header */,
+				1BDA6B4C2596108F0007A9BA /* TableView DataSource */,
+				1BDA6B512596108F0007A9BA /* Util */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		1BDA6B4A2596108F0007A9BA /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		1BDA6B4B2596108F0007A9BA /* TableView Cell and Header */ = {
+			isa = PBXGroup;
+			children = (
+				1BDA6B70259651960007A9BA /* SearchCityTableViewCell.swift */,
+				1BDA6B71259651960007A9BA /* SearchCityTableViewCell.xib */,
+			);
+			path = "TableView Cell and Header";
+			sourceTree = "<group>";
+		};
+		1BDA6B4C2596108F0007A9BA /* TableView DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				1BDA6B74259656770007A9BA /* SearchDataSource.swift */,
+			);
+			path = "TableView DataSource";
+			sourceTree = "<group>";
+		};
+		1BDA6B4D2596108F0007A9BA /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				1BDA6B7A2597283A0007A9BA /* SearchRoutables.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		1BDA6B4E2596108F0007A9BA /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				1BDA6B4F2596108F0007A9BA /* Model */,
+				1BDA6B502596108F0007A9BA /* Services */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		1BDA6B4F2596108F0007A9BA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1BDA6B502596108F0007A9BA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1BDA6B512596108F0007A9BA /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				1BDA6B762596581E0007A9BA /* PopularCities.plist */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		1BDA6B522596108F0007A9BA /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				1BDA6B532596108F0007A9BA /* ViewModel */,
+				1BDA6B542596108F0007A9BA /* View */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		1BDA6B532596108F0007A9BA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1BDA6B542596108F0007A9BA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1BDA6B55259610B50007A9BA /* Search.storyboard */,
+				1BDA6B57259610C20007A9BA /* SearchViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1BDA6B6525962B430007A9BA /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				1BDA6B6625962B5B0007A9BA /* NetworkManager.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,8 +739,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BDA6AF62595F6710007A9BA /* LaunchScreen.storyboard in Resources */,
+				1BDA6B372595FBEB0007A9BA /* HomeListTableViewCell.xib in Resources */,
 				1BDA6AF32595F6710007A9BA /* Assets.xcassets in Resources */,
+				1BDA6B5C25961D830007A9BA /* City.storyboard in Resources */,
+				1BDA6B62259621720007A9BA /* DateCollectionViewCell.xib in Resources */,
 				1BDA6AF12595F6700007A9BA /* Main.storyboard in Resources */,
+				1BDA6B73259651960007A9BA /* SearchCityTableViewCell.xib in Resources */,
+				1BDA6B772596581E0007A9BA /* PopularCities.plist in Resources */,
+				1BDA6B56259610B50007A9BA /* Search.storyboard in Resources */,
+				1B53EB4725989E3C00E531E9 /* Settings.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +772,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B53EB3625988C9800E531E9 /* HomeRoutables.swift in Sources */,
+				1BDA6B39259601C30007A9BA /* HomeViewController.swift in Sources */,
+				1BDA6B3B259602110007A9BA /* HomeDataSource.swift in Sources */,
 				1BDA6AEE2595F6700007A9BA /* ViewController.swift in Sources */,
+				1BDA6B64259621CF0007A9BA /* CityDataSource.swift in Sources */,
+				1BDA6B58259610C20007A9BA /* SearchViewController.swift in Sources */,
+				1BDA6B61259621720007A9BA /* DateCollectionViewCell.swift in Sources */,
+				1BDA6B5A259618210007A9BA /* MobiqButton.swift in Sources */,
+				1B53EB4925989E4E00E531E9 /* SettingsViewController.swift in Sources */,
+				1BDA6B75259656770007A9BA /* SearchDataSource.swift in Sources */,
+				1BDA6B5E25961D8F0007A9BA /* CityViewController.swift in Sources */,
+				1BDA6B6F259643EE0007A9BA /* Helper.swift in Sources */,
 				1BDA6AEA2595F6700007A9BA /* AppDelegate.swift in Sources */,
+				1B53EB32259875DA00E531E9 /* HomeDataModel.swift in Sources */,
+				1B53EB3825988CC300E531E9 /* HomeRouter.swift in Sources */,
+				1BDA6B7B2597283A0007A9BA /* SearchRoutables.swift in Sources */,
+				1B53EB4B2598A33C00E531E9 /* PermissionManager.swift in Sources */,
+				1BDA6B3F259602FB0007A9BA /* Constants.swift in Sources */,
+				1BDA6B6B25962FC10007A9BA /* WeatherCityViewModel.swift in Sources */,
+				1BDA6B6725962B5B0007A9BA /* NetworkManager.swift in Sources */,
+				1B53EB342598870100E531E9 /* BookmarkManager.swift in Sources */,
+				1BDA6B6925962BC10007A9BA /* WeatherCityDataModel.swift in Sources */,
+				1BDA6B72259651960007A9BA /* SearchCityTableViewCell.swift in Sources */,
+				1BDA6B40259602FB0007A9BA /* Conversions.swift in Sources */,
+				1BDA6B362595FBEB0007A9BA /* HomeListTableViewCell.swift in Sources */,
 				1BDA6AEC2595F6700007A9BA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,5 +1,5 @@
 //
-//  BookmarkedManager.swift
+//  BookmarkManager.swift
 //  MobiqWeather
 //
 //  Created by Nikhil Aggarwal on 27/12/20.
@@ -21,7 +21,7 @@ class BookmarkManager {
     }
     
     static func isCityBookmarked(model: AnnotationModel) -> Bool {
-        if let bookmarkedCities = BookmarkedManager.getBookmarkedCities() {
+        if let bookmarkedCities = BookmarkManager.getBookmarkedCities() {
             if bookmarkedCities.firstIndex(where: { $0.city == model.city }) != nil {
                 return true
             }
@@ -31,7 +31,7 @@ class BookmarkManager {
     }
     
     static func editBookmarkedCities(model: AnnotationModel) {
-        var bookmarkedCities = BookmarkedManager.getBookmarkedCities() ?? []
+        var bookmarkedCities = BookmarkManager.getBookmarkedCities() ?? []
         if let index = bookmarkedCities.firstIndex(where: { $0.city == model.city }) {
             bookmarkedCities.remove(at: index)
         } else {

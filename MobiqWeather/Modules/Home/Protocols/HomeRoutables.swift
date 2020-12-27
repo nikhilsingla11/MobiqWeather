@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+protocol HomeRoutables {
+    func routeToSearchScreen()
+    func routeToCityScreen(cityName: String)
+    func routeToSettingsScreen()
+}

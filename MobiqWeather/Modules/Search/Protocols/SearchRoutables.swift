@@ -7,3 +7,7 @@
 //
 
 import Foundation
+
+protocol SearchDelegate: class {
+    func refreshBookmarkedList()
+}

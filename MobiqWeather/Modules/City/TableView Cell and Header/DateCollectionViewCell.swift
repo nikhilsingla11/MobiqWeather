@@ -9,10 +9,25 @@
 import UIKit
 
 class DateCollectionViewCell: UICollectionViewCell {
-
+    @IBOutlet weak var lblDate: UILabel!
+    @IBOutlet weak var lblTemp: UILabel!
+    @IBOutlet weak var lblWeather: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+    }
+    
+    func setupView(viewModel: WeatherCityViewModel, isSelected: Bool) {
+        lblDate.text = viewModel.getDate()
+        lblTemp.text = viewModel.getTemp()
+        lblWeather.text = viewModel.getCityWeather()
+        if isSelected {
+            lblDate.textColor = UIColor.init(hexString: "#64b5f6")
+            lblTemp.textColor = UIColor.init(hexString: "#64b5f6")
+        } else {
+            lblDate.textColor = .black
+            lblTemp.textColor = .black
+        }
     }
 
 }
