@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="6Qc-bH-k4d">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="oGa-ha-H33">
+            <objects>
+                <navigationController navigationBarHidden="YES" id="6Qc-bH-k4d" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="inb-UV-7yq">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="MGY-g0-eED" kind="relationship" relationship="rootViewController" id="eZy-vz-kv8"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QcV-Ac-zPn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="864" y="139"/>
+        </scene>
+        <!--Title-->
+        <scene sceneID="mCO-ZZ-Sgk">
+            <objects>
+                <viewController storyboardIdentifier="HomeMainVC" id="MGY-g0-eED" customClass="HomeViewController" customModule="MobiqWeather" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8Bh-MP-eXX">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="uii-iz-TpX">
+                                <rect key="frame" x="0.0" y="100" width="414" height="762"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="keZ-gc-duT">
+                                <rect key="frame" x="0.0" y="44" width="414" height="56"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MobiqWeather" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2K5-wO-0jP">
+                                        <rect key="frame" x="151" y="18" width="112.5" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="vxF-bg-ci5"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="inu-Fj-FVM" customClass="MobiqButton" customModule="MobiqWeather" customModuleProvider="target">
+                                        <rect key="frame" x="358" y="0.0" width="56" height="56"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="56" id="c4Q-hk-Pif"/>
+                                        </constraints>
+                                        <state key="normal" image="magnifyingglass" catalog="system"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="buttonTintColor">
+                                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="searchBtnClicked:" destination="MGY-g0-eED" eventType="touchUpInside" id="cZr-gA-rbg"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.098039215690000001" green="0.46274509800000002" blue="0.82352941180000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="inu-Fj-FVM" secondAttribute="trailing" id="CLG-18-DhY"/>
+                                    <constraint firstItem="inu-Fj-FVM" firstAttribute="top" secondItem="keZ-gc-duT" secondAttribute="top" id="E0l-fs-yYv"/>
+                                    <constraint firstAttribute="bottom" secondItem="inu-Fj-FVM" secondAttribute="bottom" id="O2f-BQ-b25"/>
+                                    <constraint firstItem="2K5-wO-0jP" firstAttribute="centerX" secondItem="keZ-gc-duT" secondAttribute="centerX" id="glS-Nf-3ZE"/>
+                                    <constraint firstItem="2K5-wO-0jP" firstAttribute="centerY" secondItem="keZ-gc-duT" secondAttribute="centerY" id="otY-RQ-M2a"/>
+                                    <constraint firstAttribute="height" constant="56" id="wLp-LA-nII"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="uii-iz-TpX" firstAttribute="top" secondItem="keZ-gc-duT" secondAttribute="bottom" id="4p6-ZC-DhY"/>
+                            <constraint firstItem="uii-iz-TpX" firstAttribute="trailing" secondItem="Adi-gM-bgo" secondAttribute="trailing" id="5Q1-tM-lgj"/>
+                            <constraint firstItem="uii-iz-TpX" firstAttribute="bottom" secondItem="Adi-gM-bgo" secondAttribute="bottom" id="EjT-EM-Rs2"/>
+                            <constraint firstItem="keZ-gc-duT" firstAttribute="leading" secondItem="Adi-gM-bgo" secondAttribute="leading" id="Gum-Xg-A1D"/>
+                            <constraint firstItem="uii-iz-TpX" firstAttribute="leading" secondItem="Adi-gM-bgo" secondAttribute="leading" id="N0w-S4-0e7"/>
+                            <constraint firstItem="keZ-gc-duT" firstAttribute="trailing" secondItem="Adi-gM-bgo" secondAttribute="trailing" id="T6Q-r6-pLZ"/>
+                            <constraint firstItem="keZ-gc-duT" firstAttribute="top" secondItem="Adi-gM-bgo" secondAttribute="top" id="sv2-GB-eQP"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Adi-gM-bgo"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Title" id="aWa-LZ-UpY"/>
+                    <connections>
+                        <outlet property="homeTableVw" destination="uii-iz-TpX" id="kJk-Ns-0FD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xds-iO-AKt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1631.8840579710147" y="138.61607142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="magnifyingglass" catalog="system" width="64" height="56"/>
+    </resources>
+</document>
